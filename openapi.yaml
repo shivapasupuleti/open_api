@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Sample API
+  title: Sample API for OpenAPI Testing
   version: 1.0.0
   description: A sample API for testing OpenAPI specifications
 
