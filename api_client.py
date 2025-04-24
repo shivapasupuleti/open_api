@@ -6,14 +6,12 @@ from openapi_client.models import ItemsGet200ResponseInner, ItemsPostRequest  # 
 api_client = ApiClient()
 api_instance = DefaultApi(api_client)
 
-# Example: Get all items
 try:
     items = api_instance.items_get()
     print("Items:", items)
 except Exception as e:
     print("Error while fetching items:", e)
 
-# Example: Post a new item
 new_item = ItemsPostRequest(name="New Item")
 try:
     created_item = api_instance.items_post(new_item)
